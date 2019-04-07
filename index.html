@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>Pagina de inicio ONG</title>
+  <meta charset="utf-8" />
+  <!-- <link href="style.css" rel="stylesheet"> -->
+
+
+
+  <style>
+    body {
+      background: url(./images/imagenFondo.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      font-family: arial, georgia, times, serif;
+      margin: 0;
+    }
+
+    .container {
+      width: 85%;
+      margin: 0 auto;
+      display: flex;
+    }
+
+    .header {
+      background: white;
+      color: #005fb6;
+      padding: 0.5rem 0;
+      opacity: 0.8;
+
+    }
+
+    .header img {
+      height: 100px;
+      margin: 0;
+    }
+
+    .footer {
+
+      bottom: 0;
+      position: absolute;
+      width: 60%;
+      margin: 0 auto;
+      display: flex;
+
+    }
+
+    p {
+      font-size: 12px;
+      color: white;
+    }
+
+    .btn-group {
+
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 50%;
+      height: 20%;
+      margin: auto;
+
+    }
+
+    .btn-group button {
+      width: 100px;
+      height: 100px;
+      background-color: #ffffff;
+      opacity: 0.5;
+      margin: 20px;
+      padding: auto;
+      border-radius: 10px;
+      /* font-size: 10px; */
+      cursor: pointer;
+      transition: background-color 1s;
+      border: 2px solid #ffffff;
+
+    }
+
+    .btn-group button:hover {
+      background-color: #52ae32;
+    }
+
+    .btn-group tooltip {
+      display: inline-block;
+      position: relative;
+      border-bottom: 1px dotted #666;
+      text-align: left;
+    }
+  </style>
+
+</head>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+<body background="./images/imagenFondo.jpg">
+
+  <header class="header">
+    <div class="container">
+      <img src="./images/logo.png" alt="">
+
+    </div>
+
+  </header>
+
+  <div class="btn-group">
+    <button type="button" class="fas fa-chart-bar fa-3x" onclick="location.href = 'https://oretana.maps.arcgis.com/apps/opsdashboard/index.html#/71c0a0b45694485496d6744552c58442'" data-toggle="tooltip" title="Dashboard"></button>
+    <button type="button" class="fas fa-globe-africa fa-3x" onclick="location.href = 'https://desktop-3a22bip:3344/webappbuilder/apps/17/'" data-toggle="tooltip" title="Mapa Operativo"></button>
+    <button type="button" class="fas fa-route fa-3x" onclick="location.href = 'https://www.google.com/maps'" data-toggle="tooltip" title="Servicio de Rutas"></button>
+    <button type="button" class="fas fa-users fa-3x" onclick="location.href = 'https://www.accioncontraelhambre.org/es/europa/espana'" data-toggle="tooltip" title="Nuestros Socios"></button>
+    <button type="button" class="fas fa-hand-holding-heart fa-3x" onclick="location.href = 'https://desktop-3a22bip:3344/webappbuilder/apps/16/'" data-toggle="tooltip" title="Colabora"></button>
+  </div>
+  <!-- Dashboard, Mapa Operativo, Servicio de Rutas, Nuestros Socios, Colabora -->
+
+  <footer class="footer">
+    <div class="container">
+      <p>Página diseñada por el Grupo 5. Máster Data Science promoción 2018-2019</p>
+    </div>
+
+  </footer>
+
+
+</body>
+
+
+</html>
