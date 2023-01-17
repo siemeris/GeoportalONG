@@ -18,7 +18,9 @@ La zona de estudio para las aplicaciones enfocadas en ayuda humanitaria se centr
 -	Colabora-pujas
 -	Conócenos
 
+## Despliegue:
 
+https://siemeris.github.io/GeoportalONG/
 
 
 
